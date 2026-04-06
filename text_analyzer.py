@@ -47,7 +47,7 @@ def analyze_text(text):
 
     Ejemplo: analyze_text("hola") → "V:2 C:2 T:4 P:50.0%"
     """
-        v = count_vowels(text)
+    v = count_vowels(text)
     c = count_consonants(text)
     t = total_letters(text)
     p = vowel_percentage(text)
