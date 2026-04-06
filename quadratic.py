@@ -21,7 +21,7 @@ def value_y(a, b, c, x):
 
 
 def to_string(a, b, c):
-         if a == 0 and b == 0 and c == 0:
+     if a == 0 and b == 0 and c == 0:
          return f"f(x) = 0"
      if a ==0 and b == 0:
          return f"f(x) = {c}"
@@ -41,7 +41,7 @@ def to_string(a, b, c):
 
 
 def derivation(a, b, c):
-        if a == 0 and b == 0:
+    if a == 0 and b == 0:
         return f"f'(x) = 0"
     if a == 0:
         return f"f'(x) = {b}"
